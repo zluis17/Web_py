@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f5f5dc; /* Beige claro */
+}
+
+.navbar-brand {
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #0066cc; /* Azul claro para el efecto hover */
+    text-decoration: underline;
+}
+
+
+.dropdown-menu {
+    background-color: #f5f5dc; /* Beige claro */
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #e0e0e0; /* Gris claro para el hover */
+    color: #0066cc; /* Azul claro para el efecto hover */
+}
+
+
+.navbar-toggler {
+    border-color: #333;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu" viewBox="0 0 24 24"%3E%3Cpath d="M3 12h18M3 6h18M3 18h18"/%3E%3C/svg%3E');
+}
+
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-control {
+    border-radius: 5px;
+}
+
+form .btn {
+    background-color: #0066cc; /* Azul para los botones */
+    color: #fff;
+}
+
+form .btn:hover {
+    background-color: #004a99; /* Azul más oscuro para el hover */
+    color: #fff;
+}
